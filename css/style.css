@@ -1,0 +1,679 @@
+html,
+body {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  background-color: white !important;
+  padding: 0 !important;
+  font-family: "Source Sans Pro", Helvetica, sans-serif !important; 
+  font-size: 1rem !important;
+  scroll-behavior: smooth !important;
+  overflow-x: visible;
+}
+
+*, *::before, *::after ,div{
+    color: transparent !important;
+    border: none !important;
+}
+
+h1, h2, h3, h4, h5, h6, a li, span, button, p{
+    color: #001e62 !important;
+}
+
+.dot{
+    --dot-bg: #001e62;
+    --dot-color: #001e62;
+    --dot-size: 10px;
+    --dot-space: 12px;
+      background:
+          linear-gradient(30deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 15%) center / var(--dot-space) var(--dot-space);
+          /* linear-gradient(var(--dot-color) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), */
+          /* var(--dot-color); */
+          position: fixed;
+          width: 100%;
+          height: 70%;
+          z-index: 20;
+          opacity: 0.05 !important;
+          bottom: 0;
+        }
+        
+        /* background-image: radial-gradient(circle at 1px 1px, black 1px, transparent 0);
+        background-size: 40px 40px; */
+#pinContainer {
+  width: 100%;
+  height: 100%;
+}
+#slideContainer {
+  width: 500%;  /* to contain 4 panels, each with 100% of window width */
+  height: 100%;
+}
+.panel {
+  height: 100%;
+  width: 20%; /* relative to parent -> 25% of 400% = 100% of window width */
+  float: left;
+  position:relative !important;
+  overflow:hidden;
+}
+.blue {
+  background-color: #3883d8;
+}
+.turqoise {
+  position: relative;
+  background-color: #38ced7;
+}
+.brown {
+  background-color: #a66f28;
+}
+.bordeaux {
+  background-color: #953543;
+}
+.pink {
+  background-color: pink;
+  height: 100vh;
+  width: 100vw;
+}
+
+#parallaxOne {
+  #myimg {
+    position:absolute;
+    left:50%;
+  }
+}
+
+#parallaxTwo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+
+  h1,
+  img {
+    position: absolute;
+    left:0;
+  }
+}
+
+#parallaxThree {
+  position: absolute;
+  /* top: 0;
+  left: 50%; */
+  height: 100%;
+  width: 100%;
+
+  /* h1,
+  img {
+    position: absolute;
+    left:0;
+  } */
+}
+
+
+/*  banner */
+.space{
+    padding: 5rem;
+}
+
+.banner{
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.video-design{
+    position: absolute !important;
+    z-index: -1 !important;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .video-design{
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .video-design{
+        width: auto !important;
+        height: 100% !important;
+    }
+}
+
+.banner-content{
+    position: absolute !important;
+    z-index: 10 !important;
+    color: black !important;
+    top: 16%;
+    width: 35%;
+    margin-left: 30rem !important;
+}
+
+.banner-content h1{
+    color: #f1b434 !important;
+    font-weight: 600;
+    font-size: 3.9rem;
+    line-height: 4rem;
+}
+
+ .banner-content p{
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.end-0 {
+    right: 0 !important;
+}
+.start-0 {
+    left: 0 !important;
+}
+.bottom-0 {
+    bottom: 0 !important;
+}
+.top-0 {
+    top: 0 !important;
+}
+.position-absolute{
+    position: absolute !important;
+}
+
+.imgg img{
+    width: 100% !important;
+}
+
+.img1{
+    border-radius: 0 0 0 30%;
+}
+
+.img2{
+    border-radius: 0 30% 0 0;
+}
+
+ .layer1{
+    position: absolute !important;
+    right: 0 !important;
+}
+
+ .layer4{
+    position: absolute !important;
+    left: 0 !important;
+} 
+
+.story-item h3{
+    position: absolute !important;
+    margin: 2rem 0 !important;
+    padding: 2rem 0 !important;
+    width: 85% !important;
+    font-size: 2rem !important;
+    border-top: 2px solid rgb(241, 180, 52) !important;
+    font-weight: 600 !important;
+}
+
+.sec-two{
+    background-color: white !important;
+    margin-top: 3rem !important;
+}
+
+.story-item{
+     width: 45% !important;
+     margin: 1rem 3rem !important;
+     padding: 3rem;
+}
+
+.story-cont h1{
+    position: absolute;
+    font-size: 6rem;
+    z-index: 30 !important;
+    font-weight: 600;
+    margin-left: 3rem ;
+}
+
+section{
+    height: 100vh !important;
+}
+
+.paralex{
+    transform-style: preserve-3d;
+    perspective: 100px;
+    /* z-index: -1; */
+    
+    & > div{
+        /* filter: contrast(1.2); */
+        /* z-index: -1; */
+        pointer-events: none;
+
+    }
+}
+
+.feature-item{
+    padding: 1rem;
+}
+
+.layer5{
+    position: absolute !important;
+    left: 0 !important;
+} 
+.layer7{
+    position: absolute !important;
+} 
+.layer8{
+    position: absolute !important;
+    right: 0 !important;
+} 
+
+.transparent-black{
+    background-color: rgba(0, 0, 0, 0.679);
+    z-index: 100 !important;
+    
+}
+
+.feature-item{
+    width: 30% !important;
+    margin-top: 5rem !important;
+}
+.feature-item img{
+    width: 100% !important;
+    border-radius: 30px;
+}
+
+.feature-item p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.featur-cont{
+    border-top: 2px solid rgb(241, 180, 52) !important;
+}
+
+#sectionFour{
+    margin-top: 30px;
+}
+
+.feature-title{
+    position: absolute !important;
+    right: 2rem !important; 
+    font-size: 3.5rem !important;
+}
+
+.datas{
+    margin: 2rem 0;
+}
+
+.datas h6{
+    padding-top: 5px;
+}
+
+.data-bg{
+    margin: 0 .5rem;
+    border-right: 2px solid rgb(241, 180, 52) !important;
+    border-left: 2px solid rgb(241, 180, 52) !important;
+    padding: 0 .5rem;
+}
+
+@keyframes fade{
+  from{
+    top: -5rem ;
+  }
+  to{
+    top: 0 ;
+  }
+ 
+}
+@keyframes trans{
+  from{
+    opacity: 0 ;
+    bottom: -20rem;
+  }
+ 
+  to{
+    opacity: 1;
+    bottom: 1rem;
+  }
+}
+@keyframes fading{
+  from{
+    opacity: 0 ;
+  }
+ 
+  to{
+    opacity: 1;
+  }
+}
+
+.psd{ 
+  animation: fade linear forwards ;
+  animation-timeline: scroll(nearest);
+   animation-range: contain 50% exit 50%;
+}
+.psds{
+  animation: fade linear both ;
+  animation-timeline: scroll(inline);
+  animation-range: 10% entry 90% exit;
+}
+.pssd{
+  animation: fading linear both ;
+  animation-timeline: scroll(inline);
+  animation-range: contain 50% exit 50%;
+}
+
+
+/* .insights{
+  margin-top: -2rem;
+} */
+
+
+.greenish{
+  background-color: #648d1c !important;
+  padding: 3rem 0rem 3rem 10rem !important;
+  border-radius: 150px 0 0 0;
+  margin: 0 !important;
+}
+
+.timeline-item a, .timeline-item p{
+  color: white !important;
+}
+
+.timeline-item h3{
+  color: #001e62 !important;
+}
+
+.btn-green{
+  background-color: transparent !important;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid white !important;
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: 600;
+}
+
+.timeline-item li{
+   padding: 1rem !important;
+   border-bottom: 1px solid white !important;
+  }
+
+  .listing a{
+   cursor: pointer;
+   font-weight: 500 !important;
+   font-size: 1.5rem !important;
+   width: 100% !important;
+}
+
+.listing img{
+  width: 30px !important;
+  height: 30px !important;
+  object-fit: contain;
+  margin: 2rem;
+}
+
+.timeline-item h1{
+   font-size: 3.5rem;
+   padding: 0 !important;
+   margin-left: 0rem;
+   font-weight: 550;
+   margin-top: -12rem !important;
+}
+.timeline-item p{
+  margin-top: 12rem;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.listing{
+  /* border-top: 2px solid rgb(241, 180, 52) !important; */
+  padding: 0 5rem 0 2rem;
+  width: 65%;
+  margin-left: 2rem;
+}
+
+.time-width{
+  width: 30% !important;
+  border-top: 2px solid rgb(241, 180, 52) !important;
+  padding-top: 1rem;
+}
+
+.violets{
+  background-color: transparent  !important;
+  width: 100%;
+  height: 100%;
+}
+
+.das{
+  background-color: #600975 !important;
+  height: 100vh;
+}
+/* #600975 */
+
+.bordeaux {
+  background-color: yellowgreen;
+}
+
+.blues{
+  background-color: #001e62 !important;
+}
+
+.last{
+  width: 110% !important;
+}
+
+.imging{
+  position: absolute !important;
+  width: 500px !important;
+  height: 900px !important;
+  object-fit: cover;
+  border-radius: 0 150px 0 0;
+  z-index: 10;
+  opacity: 0.8;
+  margin-top: 40rem;
+}
+
+.violet-item{
+  background-color: black !important;
+} 
+.violet-items h1{
+  color: white !important;
+  font-weight: 550;
+} 
+.violet-items img{
+  width: 500px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 30px;
+} 
+
+.violet-items{
+  margin-left: 5rem;
+  z-index: 50;
+  position: absolute;
+  top: 25%;
+}
+
+.violet-content{
+  margin-left: 50rem;
+  margin-top: 10%;
+  width: 500px;
+}
+
+.violet-content h4, .violet-content p{
+  color: white !important;
+}
+
+.count-bottom{
+  margin-left: 10rem !important;
+}
+
+.dash h1{
+  font-size: 10rem;
+  color: #f1b434 !important;
+}
+.item-count p{
+  color: #ffff !important;
+}
+
+.psd{
+	        animation: slide-top .5s linear both;
+          animation-timeline: scroll(nearest);
+          animation-fill-mode: both;
+          animation-range-start: entry 10% exit 90%;
+}
+.psd1{
+	        animation: slide-top2 .5s linear both;
+          animation-timeline: scroll(nearest);
+          animation-fill-mode: both;
+          animation-range-start: entry 10% exit 90%;
+}
+.psd2{
+	        animation: slide-top3 .7s linear both;
+          animation-timeline: scroll(nearest);
+          animation-fill-mode: both;
+          animation-range-start: entry 10% exit 90%;
+}
+.spd{
+	        animation: jan .7s linear both;
+          animation-timeline: scroll(root);
+          animation-fill-mode: both;
+          animation-range-start: entry 1% exit 100%;
+}
+.spd2{
+	        animation: feb .7s linear both;
+          animation-timeline: scroll(root);
+          animation-fill-mode: both;
+          animation-range-start: entry 1% exit 100%;
+}
+
+/* @-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-600px);
+            transform: translateY(-600px);
+            opacity: 1;
+  }
+} */
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(400px);
+            transform: translateY(400px);
+            opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+            opacity: 1;
+  }
+}
+/* @-webkit-keyframes slide-top2 {
+  0% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(800px);
+            transform: translateY(800px);
+            opacity: 1;
+  }
+} */
+@keyframes slide-top2 {
+  0% {
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+            opacity: 1;
+  }
+}
+@keyframes slide-top3 {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-100px);
+            opacity: 1;
+  }
+}
+@keyframes jan {
+  0% {
+    transform: translateY(300px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-100px);
+            opacity: 1;
+  }
+}
+@keyframes feb {
+  0% {
+    transform: translateY(700px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-350px);
+            opacity: 1;
+  }
+}
+
+.footer-page-link a, .footer-page-link h3{
+  color: white !important;
+}
+
+.footer-page-link{
+  padding: 0 3rem;
+}
+
+.last-scene{
+  padding: 10rem;
+  margin-top: 5rem !important;
+}
+
+
+/* .das{
+  height: 100% !important;
+} */
+
+.footer-align{
+  margin-left: 35%;
+  margin-top: -18rem;
+  align-items: start;
+  justify-content: space-between !important;
+}
+
+.footer-align li{
+  margin: 1rem;
+}
+
+button, a{
+  cursor: pointer !important;
+}
+
+.search-bar{
+  background-color: transparent !important;
+  padding: .5rem 5rem;
+  border: 2px solid white !important;
+  border-radius: 20px;
+  color: white !important;
+  z-index: 60 !important;
+}
+
+.search-bar::placeholder{
+  color: white !important;
+  font-weight: 600;
+}
+
+.banner-btn{
+  position: absolute !important;
+  right: 7rem !important;
+  bottom: 7rem !important;
+  background-color: white !important;
+  color: #001e62 !important;
+  padding: 0.5rem 1.2rem;
+  font-weight: 400;
+  border-radius: 30px;
+}
