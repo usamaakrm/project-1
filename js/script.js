@@ -28,18 +28,77 @@ const accordionItemHeaders = document.querySelectorAll(
 	});
   });
 
-  $(window).scroll(function(){
-    var scroll = $(window).scrollTop();
-    var logo = $(".site_logo")
-    if(scroll>=50){
-      logo.addClass('word').removeClass('logo')
-    }else{
-      if(logo.hasClass('word')){
-        logo.addClass('logo').removeClass('word')
-      }
+  var img1 = document.getElementById("img1")
+  var img2 = document.getElementById("img2")
+  var img3 = document.getElementById("img3")
+  var img4 = document.getElementById("img4")
+  window.addEventListener('scroll', function(e) {
+    if( document.documentElement.scrollTop < 3030){
+      img1.style.display = "block";
+      img2.style.display = "none";
+      img3.style.display = "none";
+      img4.style.display = "none";
+    }
+  })
+  window.addEventListener('scroll', function(e) {
+    if( document.documentElement.scrollTop > 3030){
+      img2.style.display = "block";
+      img1.style.display = "none";
+      img3.style.display = "none";
+      img4.style.display = "none";
+    }
+  })
+  
+  window.addEventListener('scroll', function(e) {
+    if( document.documentElement.scrollTop > 4470){
+      img3.style.display = "block";
+      img1.style.display = "none";
+      img2.style.display = "none";
+      img4.style.display = "none";
+    }
+  })
+  window.addEventListener('scroll', function(e) {
+    if( document.documentElement.scrollTop > 5540){
+      img4.style.display = "block";
+      img1.style.display = "none";
+      img2.style.display = "none";
+      img3.style.display = "none";
     }
   })
 
+  window.addEventListener('scroll', function(e) {
+    if( document.documentElement.scrollTop > 4670){
+      function counter(){   
+        $('.count').each(function(){
+            if ($(this).hasClass('start')){
+                var elementTop = $(this).offset().top;
+                var elementBottom = elementTop + $(this).outerHeight();
+                var viewportTop = $(window).scrollTop();
+                var viewportBottom = viewportTop + $(window).height();
+                if(elementBottom > viewportTop && elementTop < viewportBottom){                               
+                    if(($(this).text()) % 1 === 0){
+                        var decimalpoint = 0;
+                    }else{
+                        var decimalpoint = ($(this).text()).toString().split(".")[1].length;
+                    }
+                    $(this).removeClass('start');
+                    $(this).animate({
+                        Counter: $(this).text()
+                    },{
+                        duration: 5000,
+                        easing: 'swing',
+                        step: function (now) {
+                            $(this).text(now.toFixed(decimalpoint).toLocaleString('en'));
+                        }
+                    });
+                }
+            }
+        });
+    }
+    $(document).on('ready', counter);
+    $(window).on('scroll', counter);
+    }
+  })
 
 
 $(function () {
@@ -99,17 +158,17 @@ new ScrollMagic.Scene({
 var tween4 = new TimelineMax ()
   .add([
     TweenMax.fromTo("#parallaxFours .layer5", 1, {
-      opacity: 0,top:" 60%"
+      opacity: 0,top:" 70%"
     }, {
-      opacity: 1,top: "-10%"
+      opacity: 1,top: "-0%"
     }),
     TweenMax.fromTo("#parallaxFours .layer7", 1, {
-      opacity: 0,top:" 65%"
+      opacity: 0,top:" 100%"
     }, {
-      opacity: 1,top: "-5%"
+      opacity: 1,top: "-0%"
     }),
     TweenMax.fromTo("#parallaxFours .layer8", 1, {
-      opacity: 0,top:" 70%"
+      opacity: 0,top:" 100%"
     }, {
       opacity: 1,top: "-0%"
     })

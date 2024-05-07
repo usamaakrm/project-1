@@ -107,12 +107,9 @@ nav{
   height: 100%;
   width: 100%;
 
-  /* h1,
-  img {
-    position: absolute;
-    left:0;
-  } */
+  
 }
+
 
 
 /*  banner */
@@ -124,9 +121,9 @@ nav{
     padding: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    background-image: url(/assets/banner.png);
-    background-size: cover;
-    background-position: center;
+    /* background-image: url(/assets/banner.png); */
+    /* background-size: cover; */
+    /* background-position: center; */
 }
 /* 
 .video-design{
@@ -148,7 +145,7 @@ nav{
 } */
 
 .banner-content{
-    position: absolute !important;
+    /* position: absolute !important; */
     z-index: 10 !important;
     color: black !important;
     top: 16%;
@@ -157,16 +154,25 @@ nav{
 }
 
 .banner-content h1{
-    color: white !important;
+    color: #273e8f !important;
     font-weight: 600;
     font-size: 3.9rem;
     line-height: 4rem;
 }
 
  .banner-content p{
-    color: white !important;
+    color: black !important;
     font-size: 1rem;
     font-weight: 500;
+}
+
+.banner-img{
+  width: 60%;
+}
+
+.banner-flex{
+  justify-content: space-between !important;
+  align-items: center !important; 
 }
 
 
@@ -188,6 +194,18 @@ nav{
 
 .imgg img{
     width: 100% !important;
+}
+
+.img1{
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin-bottom: -10rem;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
 }
 
 .img1{
@@ -288,6 +306,7 @@ section{
 .feature-item p{
     font-size: 1.4rem;
     font-weight: 500;
+    margin-top: 20px;
 }
 
 .featur-cont{
@@ -300,7 +319,7 @@ section{
 
 .feature-title{
     position: absolute !important;
-    right: 2rem !important; 
+    left: 2rem !important; 
     font-size: 3.5rem !important;
 }
 
@@ -374,7 +393,7 @@ section{
 .greenish{
   background-color: #648d1c !important;
   padding: 3rem 0rem 3rem 10rem !important;
-  border-radius: 150px 0 0 0;
+  /* border-radius: 150px 0 0 0; */
   margin: 0 !important;
 }
 
@@ -547,7 +566,7 @@ section{
 	        animation: feb .7s linear both;
           animation-timeline: scroll(root);
           animation-fill-mode: both;
-          animation-range-start: entry 1% exit 100%;
+          animation-range-start: entry 1% exit 0%;
 }
 
 /* @-webkit-keyframes slide-top {
@@ -624,7 +643,7 @@ section{
     opacity: 0.5;
   }
   100% {
-    transform: translateY(-150px);
+    transform: translateY(-60px);
             opacity: 1;
   }
 }
@@ -637,6 +656,10 @@ section{
   padding: 0 3rem;
   margin-top: 3rem;
   margin-left: 15rem;
+}
+
+.contact-list{
+  margin-left: -3rem;
 }
 
 .last-scene{
@@ -759,4 +782,19 @@ button, a{
 
 .logo{
   display: none;
+}
+
+.layer3{
+  position: absolute !important;
+  text-align: center !important;
+  width: 100%;
+  font-size: 4rem !important;
+}
+
+ #img2, #img3, #img4{
+  display: none;
+}
+
+.site_logo{
+  margin: 2rem 6rem;
 }

@@ -34,22 +34,24 @@
 </head>
 
 <body>
-    <!-- <nav>
+    <nav>
         <div class="d-flexk site_logo">
-            <img src="./assets/l1.png" alt="" width="300" >
-            <img src="./assets/l2.png" alt="" width="300">
+            <img src="./assets/l1.png" alt="" width="120" id="img1">
+            <img src="./assets/l3.png" alt="" width="120" id="img2">
+            <img src="./assets/l5.png" alt="" width="120" id="img3">
+            <img src="./assets/l4.png" alt="" width="120" id="img4">
         </div>
-    </nav> -->
+    </nav>
     <!-- <div class="dot"></div> -->
     <section id="pinContainer">
         <div id="slideContainer">
 
             <section id="sectionOne" class="panel banner-anime">
                 <!-- animate__animated animate__bounceInRight animate__slow animate__repeat-1 -->
-                <div id="panel-1" class="position-relative banner">
+                <div id="panel-1" class="position-relative banner d-flex banner-flex">
                     
 
-                    <div class="banner-content position-absolute m-5 p-5">
+                    <div class="banner-content  m-5 p-5">
                         <h1 class="anime-text">Collaboration <br> Powers <br> Success</h1>
                         <p class="anime-text mt-3">Fresh ideas. Innovative thinking. Strategic insights about your business
                             and your industry. That is what you can expect when our diverse teams of legal and business
@@ -58,7 +60,9 @@
                     </div>
 
                     <!-- <a href="#sectionThree" class="banner-btn">Explore <img src="./right-arrow.png" alt="" width="20"></a> -->
-
+                    <div class="banner-img">
+                        <img src="./assets/law-firm-services.svg" alt="" >
+                    </div>
                 </div>
 
             </section>
@@ -70,12 +74,12 @@
                     <div class="imgg d-flex justify-content-between">
                         <div class="story-item layer1 paralex">
                             <img class="img1 "
-                                src="./assets/drone-point-view-of-overpass-and-city-traffic-at-night-gettyimages-1357458696-med.jpg"
+                                src="./assets/car-collided-which-caused-accident.svg"
                                 alt="">
                             <h3 class="design">Navigating Rapid—And Necessary—Exits from Russia</h3>
                         </div>
                         <div class="story-item layer4 paralex">
-                            <img class="img2 " src="./assets/ukrainian-flag-blue-sky-gettyimages-1358161887-med.jpg"
+                            <img class="img2 " src="./assets/tax-form.svg"
                                 alt="">
                             <h3>A Cross-Border Defense of Quality: Dana UK Axle</h3>
                         </div>
@@ -93,30 +97,30 @@
                     <div class="d-flex justify-content-center featur-cont ">
                         <div class="feature-item layer5 paralex">
                             <img src="./assets/j1.jpg" alt="">
-                            <div class="d-flex datas ">
+                            <!-- <div class="d-flex datas ">
                                 <h6>Firm News</h6>
                                 <h6 class="data-bg">3 min read</h6>
                                 <h6>04-04-2024</h6>
-                            </div>
+                            </div> -->
                             <p>Highly Respected Corporate Team Joins Crowell’s Chicago Office</p>
                         </div>
                         <div class="feature-item layer7 paralex">
                             <img src="./assets/j2.jpg" alt="">
-                            <div class="d-flex datas">
+                            <!-- <div class="d-flex datas">
                                 <h6>Firm News</h6>
                                 <h6 class="data-bg">3 min read</h6>
                                 <h6>04-04-2024</h6>
-                            </div>
+                            </div> -->
                             <p>On the Anniversary of His Return to Imprisonment, Crosley Green’s Lawyers Ask a Florida
                                 Court to Correct the Miscalculation that Could Cost Him 40 Years of His Life</p>
                         </div>
                         <div class="feature-item layer8 paralex">
                             <img src="./assets/j3.jpg" alt="">
-                            <div class="d-flex datas">
+                            <!-- <div class="d-flex datas">
                                 <h6>Firm News</h6>
                                 <h6 class="data-bg">3 min read</h6>
                                 <h6>04-04-2024</h6>
-                            </div>
+                            </div> -->
                             <p>Senior Congressional Health Counsel Stephen Holland Joins Crowell & Moring</p>
                         </div>
                     </div>
@@ -130,6 +134,9 @@
                             <div class="spd">
                                 <h1>Timely and <br>Actionable <br>Insights</h1>
                                 <p>As part of our commitment to service excellence, we develop in-depth analysis and
+                                    practical guidance on recent legal developments and around the next corner issues and
+                                    share that insight in diverse formats, including publications, programs, blogs and
+                                    podcasts. we develop in-depth analysis and
                                     practical guidance on recent legal developments and around the next corner issues and
                                     share that insight in diverse formats, including publications, programs, blogs and
                                     podcasts.</p>
@@ -207,9 +214,9 @@
 
             <section id="parallaxFive" class="violets last">
                 <div class="d-flex das">
-                     <div class="violet-item psd">
+                     <!-- <div class="violet-item psd">
                         <img src="./assets/mural-boy-pro-bono-gettyimages-1328358949.jpg" alt="" class="imging">
-                     </div>
+                     </div> -->
                      <div class="violet-items psd1">
                         <h1>Success Story</h1>
                         <img src="./assets/soldier-farewell-w-daughter-gettyimages-1394396934.jpg" alt="">
@@ -246,13 +253,9 @@
                     
                     <div class="footer-page-link">
                         <h3>Contact us</h3>
-                        <ul>
-                            <li><a href="">Subscribe</a></li>
-                            <li><a href="">Terms of Use</a></li>
-                            <li><a href="">Privacy Statement</a></li>
-                            <!-- <li><a href="">Awards Methodology</a></li>
-                            <li><a href="">Legal Notices</a></li>
-                            <li><a href="">Legal Notices</a></li> -->
+                        <ul class="contact-list">
+                            <li class="mt-4"><a href="">Terms and conditions</a></li>
+                            <li class="mt-4"><a href="">Privacy Statement</a></li>
                         </ul>
                     </div>
             </div>
@@ -297,37 +300,6 @@
             duration: 1500,
             once: false
         });
-    </script>
-    <script>
-        function counter(){   
-            $('.count').each(function(){
-                if ($(this).hasClass('start')){
-                    var elementTop = $(this).offset().top;
-                    var elementBottom = elementTop + $(this).outerHeight();
-                    var viewportTop = $(window).scrollTop();
-                    var viewportBottom = viewportTop + $(window).height();
-                    if(elementBottom > viewportTop && elementTop < viewportBottom){                               
-                        if(($(this).text()) % 1 === 0){
-                            var decimalpoint = 0;
-                        }else{
-                            var decimalpoint = ($(this).text()).toString().split(".")[1].length;
-                        }
-                        $(this).removeClass('start');
-                        $(this).animate({
-                            Counter: $(this).text()
-                        },{
-                            duration: 4000,
-                            easing: 'swing',
-                            step: function (now) {
-                                $(this).text(now.toFixed(decimalpoint).toLocaleString('en'));
-                            }
-                        });
-                    }
-                }
-            });
-        }
-        $(document).on('ready', counter);
-        $(window).on('scroll', counter);
     </script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
