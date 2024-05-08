@@ -33,7 +33,7 @@ const accordionItemHeaders = document.querySelectorAll(
   var img3 = document.getElementById("img3")
   var img4 = document.getElementById("img4")
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop < 3030){
+    if( document.documentElement.scrollTop < 2650){
       img1.style.display = "block";
       img2.style.display = "none";
       img3.style.display = "none";
@@ -41,7 +41,7 @@ const accordionItemHeaders = document.querySelectorAll(
     }
   })
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop > 3030){
+    if( document.documentElement.scrollTop > 2650){
       img2.style.display = "block";
       img1.style.display = "none";
       img3.style.display = "none";
@@ -50,7 +50,7 @@ const accordionItemHeaders = document.querySelectorAll(
   })
   
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop > 4470){
+    if( document.documentElement.scrollTop > 4090){
       img3.style.display = "block";
       img1.style.display = "none";
       img2.style.display = "none";
@@ -58,7 +58,7 @@ const accordionItemHeaders = document.querySelectorAll(
     }
   })
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop > 5540){
+    if( document.documentElement.scrollTop > 5160){
       img4.style.display = "block";
       img1.style.display = "none";
       img2.style.display = "none";
@@ -67,7 +67,7 @@ const accordionItemHeaders = document.querySelectorAll(
   })
 
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop > 4670){
+    if( document.documentElement.scrollTop > 4470){
       function counter(){   
         $('.count').each(function(){
             if ($(this).hasClass('start')){

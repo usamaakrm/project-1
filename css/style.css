@@ -349,26 +349,16 @@ section{
 }
 @keyframes trans{
   from{
-    opacity: 0 ;
     bottom: -20rem;
   }
  
   to{
-    opacity: 1;
     bottom: 1rem;
   }
 }
-@keyframes fading{
-  from{
-    opacity: 0 ;
-  }
- 
-  to{
-    opacity: 1;
-  }
-}
 
-.psd{ 
+
+/* .psd{ 
   animation: fade linear forwards ;
   animation-timeline: scroll(nearest);
    animation-range: contain 50% exit 50%;
@@ -382,7 +372,7 @@ section{
   animation: fading linear both ;
   animation-timeline: scroll(inline);
   animation-range: contain 50% exit 50%;
-}
+} */
 
 
 /* .insights{
@@ -585,12 +575,10 @@ section{
   0% {
     -webkit-transform: translateY(400px);
             transform: translateY(400px);
-            opacity: 0;
   }
   100% {
     -webkit-transform: translateY(-800px);
             transform: translateY(-800px);
-            opacity: 1;
   }
 }
 /* @-webkit-keyframes slide-top2 {
@@ -609,42 +597,36 @@ section{
   0% {
     -webkit-transform: translateY(300px);
             transform: translateY(300px);
-    opacity: 0;
   }
   100% {
     -webkit-transform: translateY(-100px);
             transform: translateY(-100px);
-            opacity: 1;
+      
   }
 }
 @keyframes slide-top3 {
   0% {
     transform: translateY(1000px);
-    opacity: 0;
   }
   100% {
     transform: translateY(-100px);
-            opacity: 1;
+      
   }
 }
 @keyframes jan {
   0% {
     transform: translateY(300px);
-    opacity: 0.5;
   }
   100% {
     transform: translateY(-100px);
-            opacity: 1;
   }
 }
 @keyframes feb {
   0% {
     transform: translateY(400px);
-    opacity: 0.5;
   }
   100% {
     transform: translateY(-60px);
-            opacity: 1;
   }
 }
 
