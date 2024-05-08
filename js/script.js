@@ -58,7 +58,7 @@ const accordionItemHeaders = document.querySelectorAll(
     }
   })
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop > 6240){
+    if( document.documentElement.scrollTop > 6440){
       img4.style.display = "block";
       img1.style.display = "none";
       img2.style.display = "none";
