@@ -200,7 +200,7 @@ nav{
     width: 600px;
     height: 600px;
     object-fit: contain;
-    margin-bottom: -10rem;
+    margin-bottom: -14rem;
 }
 .img2{
     width: 300px;
@@ -234,6 +234,12 @@ nav{
     font-size: 2rem !important;
     border-top: 2px solid rgb(241, 180, 52) !important;
     font-weight: 600 !important;
+    text-align: center !important;
+}
+
+.story-item p{
+  margin-top: 10rem;
+  color: black !important;
 }
 
 .sec-two{
@@ -299,14 +305,19 @@ section{
     margin-top: 5rem !important;
 }
 .feature-item img{
-    width: 100% !important;
+    width: 160px !important;
     border-radius: 30px;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 5rem;
 }
 
 .feature-item p{
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 60px;
+    color: black !important;
 }
 
 .featur-cont{
@@ -630,14 +641,42 @@ section{
   }
 }
 
-.footer-page-link a, .footer-page-link h3{
+.footer-page-link a, .footer-align2 h3{
   color: white !important;
 }
 
+.footer-align2 h3{
+  margin-left: .5rem ;
+}
+
 .footer-page-link{
-  padding: 0 3rem;
-  margin-top: 3rem;
-  margin-left: 15rem;
+  padding: 0 2.5rem;
+  margin-top: 5rem;
+}
+
+.footer-align2{
+  margin: 1rem;
+  margin-left: 18rem;
+}
+
+.footer-align2 input{
+  margin: 1.5rem 1rem;
+  background-color: transparent;
+  outline: none;
+  width: 350px;
+  padding: 5px 10px;
+  border-bottom: 2px solid white !important; 
+  color: white !important;
+}
+
+.footer-btn{
+  background-color: white;
+  color: #001e62 !important;
+  border: 1px solid white !important;
+  padding: 5px 15px;
+  margin:1.5rem 1rem;
+  font-weight: 600;
+  border-radius: 10px;
 }
 
 .contact-list{
@@ -645,7 +684,7 @@ section{
 }
 
 .last-scene{
-  padding: 15rem 10rem;
+  padding: 10rem 10rem;
   margin-top: 5rem !important;
 }
 

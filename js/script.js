@@ -136,14 +136,14 @@ $(function () {
 var tween3 = new TimelineMax ()
   .add([
     TweenMax.fromTo("#parallaxThree .layer1", 1, {
-      opacity: 0.4,bottom: "-50%"
+      opacity: 0.4,bottom: "-80%"
     }, {
-      opacity: 1,bottom: "40%"
+      opacity: 1,bottom: "15%"
     }),
     TweenMax.fromTo("#parallaxThree .layer4", 1, {
-      opacity: 0.4,bottom: "-50%"
+      opacity: 0.4,bottom: "-80%"
     }, {
-      opacity: 1,bottom: "40%"
+      opacity: 1,bottom: "15%"
     })
   ]);
 
