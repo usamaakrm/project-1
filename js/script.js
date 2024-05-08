@@ -33,7 +33,7 @@ const accordionItemHeaders = document.querySelectorAll(
   var img3 = document.getElementById("img3")
   var img4 = document.getElementById("img4")
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop < 3330){
+    if( document.documentElement.scrollTop < 3370){
       img1.style.display = "block";
       img2.style.display = "none";
       img3.style.display = "none";
@@ -41,7 +41,7 @@ const accordionItemHeaders = document.querySelectorAll(
     }
   })
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop > 3330){
+    if( document.documentElement.scrollTop > 3370){
       img2.style.display = "block";
       img1.style.display = "none";
       img3.style.display = "none";
@@ -50,7 +50,7 @@ const accordionItemHeaders = document.querySelectorAll(
   })
   
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop > 4770){
+    if( document.documentElement.scrollTop > 4970){
       img3.style.display = "block";
       img1.style.display = "none";
       img2.style.display = "none";
@@ -58,7 +58,7 @@ const accordionItemHeaders = document.querySelectorAll(
     }
   })
   window.addEventListener('scroll', function(e) {
-    if( document.documentElement.scrollTop > 5840){
+    if( document.documentElement.scrollTop > 5940){
       img4.style.display = "block";
       img1.style.display = "none";
       img2.style.display = "none";
