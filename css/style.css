@@ -302,21 +302,24 @@ section{
 
 .feature-item{
     width: 30% !important;
-    margin-top: 5rem !important;
+    margin-top: 10rem !important;
+    text-align: center !important;
 }
-.feature-item img{
-    width: 160px !important;
-    border-radius: 30px;
-    display: block;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: 5rem;
+
+
+.feature-item h1{
+    font-size: 13rem;
+    text-align: center !important;
+    font-weight: 500;
+    width: 100%;
+    margin-left: -20px;
+    color: #3D69FF !important;
 }
 
 .feature-item p{
     font-size: 1rem;
     font-weight: 500;
-    margin-top: 60px;
+    margin-top: 15rem;
     color: black !important;
 }
 
@@ -392,14 +395,15 @@ section{
 
 
 .greenish{
-  background-color: #648d1c !important;
+  background-color: #d1dbff59 !important;
   padding: 3rem 0rem 3rem 10rem !important;
   /* border-radius: 150px 0 0 0; */
   margin: 0 !important;
 }
 
 .timeline-item a, .timeline-item p{
-  color: white !important;
+  color: grey !important;
+  font-size: 1.1rem !important;
 }
 
 .timeline-item h3{
@@ -465,10 +469,12 @@ section{
   background-color: transparent  !important;
   width: 100%;
   height: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .das{
-  background-color: #600975 !important;
+  background-color: white !important;
   height: 100vh;
 }
 /* #600975 */
@@ -500,13 +506,15 @@ section{
   background-color: black !important;
 } 
 .violet-items h1{
-  color: white !important;
+  color: #001e62 !important;
   font-weight: 550;
+  margin-top: -7rem;
+  margin-bottom: 10rem;
 } 
 .violet-items img{
   width: 500px;
-  height: 280px;
-  object-fit: cover;
+  height: 300px;
+  object-fit: contain;
   border-radius: 30px;
 } 
 
@@ -519,12 +527,19 @@ section{
 
 .violet-content{
   margin-left: 40rem;
-  margin-top: 10%;
+  margin-top: 15%;
   width: 500px;
 }
 
-.violet-content h4, .violet-content p{
-  color: white !important;
+.count-bottom{
+  padding-bottom: 30px;
+}
+
+.violet-content h4{
+  color:#001e62 !important;
+}
+.violet-content p{
+  color: black !important;
 }
 
 .count-bottom{
@@ -536,7 +551,12 @@ section{
   color: #f1b434 !important;
 }
 .item-count p{
-  color: #ffff !important;
+  color: black !important;
+}
+
+.dash, .item-count{
+  justify-content: center !important;
+  text-align: center !important;
 }
 
 .psd{
@@ -743,9 +763,9 @@ button, a{
 
 .accordion-item {
 	background-color: transparent;
-	color: white !important;
+	color: #001e62 !important;
 	margin: 1rem 0;
-  border-bottom: 2px solid white !important;
+  border-bottom: 2px solid black !important;
 }
 
 .accordion-item-header {
@@ -758,7 +778,7 @@ button, a{
 	position: relative;
 	cursor: pointer;
   font-size: 30px;
-  color: white !important;
+  color: black !important;
 }
 
 .accordion-item-header::after {
@@ -766,12 +786,12 @@ button, a{
 	font-size: 1.5rem;
 	position: absolute;
 	right: 1rem;
-  color: white !important;
+  color: black !important;
 }
 
 .accordion-item-header.active::after {
 	content: "\2212";
-  color: white !important;
+  color: black !important;
 
   
 }
@@ -780,7 +800,7 @@ button, a{
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
-  color: white !important;
+  color: #001e62 !important;
 }
 
 .accordion-item-body-content {
@@ -790,7 +810,7 @@ button, a{
 	border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
 	font-weight: 450;
 	text-align: left;
-  color: white !important;
+  color: black !important;
 }
 
 #faq{
@@ -818,4 +838,8 @@ button, a{
 
 .site_logo{
   margin: 2rem 6rem;
+}
+
+.stat-flex{
+  justify-content: center !important;
 }
