@@ -1,5 +1,6 @@
 "use strict";
 
+
 const accordionItemHeaders = document.querySelectorAll(
 	".accordion-item-header"
   );
@@ -85,7 +86,7 @@ const accordionItemHeaders = document.querySelectorAll(
                     $(this).animate({
                         Counter: $(this).text()
                     },{
-                        duration: 5000,
+                        duration: 3000,
                         easing: 'swing',
                         step: function (now) {
                             $(this).text(now.toFixed(decimalpoint).toLocaleString('en'));

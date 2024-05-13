@@ -265,15 +265,15 @@
                 <h3>Contact us</h3>
 
                 <div class="d-flex">
-                    <input type="name" placeholder="First Name">
-                    <input type="name" placeholder="Last name">
+                    <input type="name" placeholder="First Name" required>
+                    <input type="name" placeholder="Last name" required>
                 </div>
                <div class="d-flex">
-                <input type="tel" placeholder="Phone Number">
-                <input type="email" placeholder="E-mail">
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="email" placeholder="E-mail" required>
                </div>
                <div class="input-group py-2 mt-3">
-                <select class="custom-select coloring" id="inputGroupSelect01" >
+                <select class="custom-select coloring" id="inputGroupSelect01"  required>
                     <option value="" disabled selected hidden> Select your State</option>
                     <option value="1">California</option>
                     <option value="1">Alabama</option>
@@ -329,16 +329,16 @@
                 </select>
             </div>
             <div class="input-group py-2 mt-5">
-                <select class="custom-select coloring" id="inputGroupSelect01">
+                <select class="custom-select coloring" id="inputGroupSelect01" required>
                     <option value="" disabled selected hidden> Choose Practice Area</option>
                     <option value="1">Government</option>
                     <option value="1">Professional</option>
                     <option value="1">Private</option>
                 </select>
             </div><br>
-               <input type="text" placeholder="Comment" class="comment"><br>
+               <input type="text" placeholder="Comment" class="comment" required><br>
                <br>
-               <button class="footer-btn">Submit</button>
+               <button class="footer-btn" onclick="sam()">Submit</button>
             </form>
    </div>
                 
@@ -346,6 +346,11 @@
         
         </div>
     </section>
+    <script>
+        function sam(){
+            alert("Form is Submitted");
+          }
+    </script>
     <!-- <div style="display:none;">
         <div id="one" class="tippy-popper">
             <div class="tippy-tooltip" data-placement="top">
