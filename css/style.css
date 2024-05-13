@@ -453,7 +453,7 @@ section{
 .timeline-item p{
   margin-top: 15rem;
   width: 90%;
-  text-align: justify;
+  text-align: left;
   font-size: 1.2rem;
 }
 
@@ -873,3 +873,8 @@ button, a{
 .stat-flex{
   justify-content: center !important;
 }
+
+option[value=""][disabled]{
+  display: none;
+}
+
