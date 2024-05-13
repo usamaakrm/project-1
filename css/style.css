@@ -155,8 +155,8 @@ nav{
 
 .banner-content h1{
     color: #273e8f !important;
-    font-weight: 600;
-    font-size: 3.9rem;
+    font-weight: 700;
+    font-size: 3rem;
     line-height: 4rem;
 }
 
@@ -200,7 +200,7 @@ nav{
     width: 600px;
     height: 600px;
     object-fit: contain;
-    margin-bottom: -14rem;
+    margin-bottom: -13.7rem;
 }
 .img2{
     width: 300px;
@@ -308,7 +308,7 @@ section{
 
 
 .feature-item h1{
-    font-size: 13rem;
+    font-size: 8rem;
     text-align: center !important;
     font-weight: 500;
     width: 100%;
@@ -319,7 +319,7 @@ section{
 .feature-item p{
     font-size: 1rem;
     font-weight: 500;
-    margin-top: 15rem;
+    margin-top: 10rem;
     color: black !important;
 }
 
@@ -332,8 +332,12 @@ section{
 }
 
 .feature-title{
-    position: absolute !important;
-    left: 2rem !important; 
+   text-align: center !important;
+   position: absolute !important;
+   display: block !important;
+   margin-left: auto !important; 
+   margin-right: auto !important;
+   width: 100% !important;
     font-size: 3.5rem !important;
 }
 
@@ -402,7 +406,7 @@ section{
 }
 
 .timeline-item a, .timeline-item p{
-  color: grey !important;
+  color: black !important;
   font-size: 1.1rem !important;
 }
 
@@ -440,15 +444,16 @@ section{
 }
 
 .timeline-item h1{
-   font-size: 3.5rem;
+   font-size: 4rem;
    padding: 0 !important;
    margin-left: 0rem;
    font-weight: 550;
-   margin-top: -12rem !important;
+   margin-top: -14rem !important;
 }
 .timeline-item p{
-  margin-top: 12rem;
-  width: 100%;
+  margin-top: 15rem;
+  width: 90%;
+  text-align: justify;
   font-size: 1.2rem;
 }
 
@@ -509,6 +514,7 @@ section{
   color: #001e62 !important;
   font-weight: 550;
   margin-top: -7rem;
+  margin-left: 2rem;
   margin-bottom: 10rem;
 } 
 .violet-items img{
@@ -675,18 +681,41 @@ section{
 }
 
 .footer-align2{
-  margin: 1rem;
-  margin-left: 18rem;
+  margin: -5rem;
+  margin-left: 10rem;
+}
+
+.footer-align1{
+  margin-left: 0rem;
 }
 
 .footer-align2 input{
   margin: 1.5rem 1rem;
   background-color: transparent;
   outline: none;
-  width: 350px;
+  width: 270px;
   padding: 5px 10px;
   border-bottom: 2px solid white !important; 
   color: white !important;
+}
+
+option, select{
+  color: grey !important;
+  background-color: #001e62;
+}
+
+.input-group{
+  margin-left: 15px;
+  width: 575px !important;
+  border-bottom: 2px solid white !important;
+}
+
+.comment{
+  width: 575px !important;
+}
+
+select{
+  outline: none;
 }
 
 .footer-btn{
@@ -700,7 +729,8 @@ section{
 }
 
 .contact-list{
-  margin-left: -3rem;
+  margin-left: 0rem;
+  text-align: left;
 }
 
 .last-scene{
@@ -719,8 +749,8 @@ section{
   align-items: start;
   justify-content: space-between !important;
   padding-top: 5rem;
-
 }
+
 
 .footer-align li{
   margin: 1rem;
