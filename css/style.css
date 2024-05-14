@@ -339,6 +339,7 @@ section{
    margin-right: auto !important;
    width: 100% !important;
     font-size: 3.5rem !important;
+    margin-left: -3.5rem !important;
 }
 
 .datas{
@@ -731,6 +732,18 @@ select{
 .contact-list{
   margin-left: 0rem;
   text-align: left;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.contact-list li{
+  margin-left: 3rem;
+}
+.footer-page-link{
+  width: 100% !important;
+  position: absolute !important;
+  bottom: 1rem !important;
+  left: 0 !important;
 }
 
 .last-scene{
@@ -807,7 +820,7 @@ button, a{
 	align-items: center;
 	position: relative;
 	cursor: pointer;
-  font-size: 30px;
+  font-size: 20px;
   color: black !important;
 }
 
