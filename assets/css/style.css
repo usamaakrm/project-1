@@ -164,6 +164,7 @@ nav{
     color: black !important;
     font-size: 1rem;
     font-weight: 500;
+    margin-bottom: 3rem;
 }
 
 .banner-img{
@@ -684,7 +685,6 @@ section{
 
 .footer-page-link{
   padding: 0 2.5rem;
-  margin-top: 5rem;
 }
 
 .footer-align2{
@@ -694,7 +694,16 @@ section{
 
 .footer-align1{
   margin-left: 0rem;
+  margin-top: 2rem !important;
   /* background-color: black; */
+}
+
+.footer-contact p{
+    color: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 10px !important;
+    font-size: 15px !important;
 }
 
 .last-logo{
@@ -750,7 +759,7 @@ select{
   flex-direction: row !important;
   justify-content: space-between !important;
   /* background-color: #a66f28; */
-  margin-top: 20rem !important;
+  margin-top: 12rem !important;
 }
 
 .contact-list li{
@@ -762,6 +771,7 @@ select{
   bottom: 1rem !important;
   /* background-color: red; */
   padding: 0 !important;
+  margin-top: -7rem !important;
 }
 
 .last-scene{
@@ -820,7 +830,7 @@ button, a{
 .accordion {
 	width: 100%;
 	margin: 2rem auto;
-  margin-top: -5rem;
+  margin-top: 0rem;
 }
 
 .accordion-item {
@@ -866,7 +876,7 @@ button, a{
 }
 
 .accordion-item-body-content {
-	padding: 0 1rem;
+	padding:  1rem;
 	line-height: 1.5rem;
 	border-top: 1px solid;
 	border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
@@ -909,6 +919,7 @@ button, a{
 
 .headings{
   font-size: 3rem !important;
+  margin-left: -1rem !important;
 }
 
 option[value=""][disabled]{
@@ -921,4 +932,13 @@ option[value=""][disabled]{
 
 .spd h1{
   font-size: 3rem !important;
+}
+
+.banners-btn{
+  position: relative !important;
+  margin:  0  !important;
+  padding: 10px 30px !important;
+  background-color: #001e62 !important;
+  color: white !important;
+  border: 5px solid #273e8f !important;
 }

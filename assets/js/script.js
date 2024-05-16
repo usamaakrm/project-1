@@ -142,9 +142,9 @@ var tween3 = new TimelineMax ()
       opacity: 1,bottom: "16%"
     }),
     TweenMax.fromTo("#parallaxThree .layer4", 1, {
-      opacity: 0.4,bottom: "-50%"
+      opacity: 0.4,bottom: "-66%"
     }, {
-      opacity: 1,bottom: "20%"
+      opacity: 1,bottom: "15%"
     })
   ]);
 
