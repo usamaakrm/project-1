@@ -694,6 +694,13 @@ section{
 
 .footer-align1{
   margin-left: 0rem;
+  /* background-color: black; */
+}
+
+.last-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-align2 input{
@@ -736,24 +743,29 @@ select{
 }
 
 .contact-list{
-  margin-left: 0rem;
-  text-align: left;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
   display: flex !important;
   flex-direction: row !important;
+  justify-content: space-between !important;
+  /* background-color: #a66f28; */
+  margin-top: 20rem !important;
 }
 
 .contact-list li{
-  margin-left: 4rem;
+  margin-left: 0rem;
 }
 .footer-page-link{
   width: 100% !important;
-  position: absolute !important;
+  position:relative !important;
   bottom: 1rem !important;
-  left: 0 !important;
+  /* background-color: red; */
+  padding: 0 !important;
 }
 
 .last-scene{
-  padding: 10rem 10rem;
+  padding: 10rem 5rem;
   margin-top: 5rem !important;
 }
 
