@@ -903,3 +903,10 @@ option[value=""][disabled]{
   display: none;
 }
 
+.site_logo img{
+  margin-top: 3rem !important;
+}
+
+.spd h1{
+  font-size: 3rem !important;
+}
