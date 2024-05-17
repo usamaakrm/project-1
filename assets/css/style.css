@@ -558,6 +558,7 @@ section{
 
 .count-bottom{
   margin-left: 10rem !important;
+  margin-right: -10rem !important;
 }
 
 .dash h1{
@@ -569,8 +570,12 @@ section{
 }
 
 .dash, .item-count{
-  justify-content: center !important;
-  text-align: center !important;
+  justify-content: left !important;
+  text-align:left !important;
+}
+
+.dash img{
+  margin-left: 50px;
 }
 
 .psd{
@@ -919,6 +924,7 @@ b{
 
 .stat-flex{
   justify-content: center !important;
+  margin-left: 3rem;
 }
 
 .headings{
