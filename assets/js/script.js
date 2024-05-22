@@ -220,6 +220,12 @@ $(document).on('click', '[data-lightbox]', lity);
 
 });
 
+onRefresh: self => {
+  if (self.start < 0) {
+    self.animation.progress(gsap.utils.mapRange(-25, 34));
+  }
+}
+
 const sr = ScrollReveal({
     distance: '200px',
     duration: 1000,

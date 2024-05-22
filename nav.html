@@ -1,0 +1,281 @@
+<!-- 
+
+<section class="footer-section bg-white pt-5 pb-0">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xxl-4 col-xl-2 col-lg-3 col-md-4">
+
+                <img src="./assets/images/logo.png" alt="logo" class="img-fluid">
+
+            </div>
+
+            <div class="col-xxl-4 col-xl-5 col-lg-4 col-md-4 mt-3 mt-md-0">
+                
+                <div class="row">
+
+                    <div class="col-lg-4 text-start text-lg-end">
+
+                        <a href="#" class="mb-4 ps-md-0 ps-4 h6 text-dark">Products</a>
+
+                    </div>
+
+                    <div class="col-lg-4 text-start text-lg-end">
+
+                        <a href="#" class="mb-4 ps-md-0 ps-4 h6 text-dark">Features</a>
+
+                    </div>
+
+                    <div class="col-lg-4 text-start text-lg-end">
+
+                        <a href="#" class="mb-4 ps-md-0 ps-4 h6 text-dark">Pricing</a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-xxl-4 col-xl-5 col-lg-4 col-md-4">
+                
+                <div class="row">
+
+                    <div class="col-lg-4 text-start text-lg-end">
+
+                        <a href="#" class="mb-4 ps-md-0 ps-4 h6 text-dark">Changelog</a>
+
+                    </div>
+
+                    <div class="col-lg-4 text-start text-lg-end">
+
+                        <a href="#" class="mb-4 ps-md-0 ps-4 h6 text-dark">About us</a>
+
+                    </div>
+
+                    <div class="col-lg-4 text-start text-lg-end">
+
+                        <a href="#" class="mb-4 ps-md-0 ps-4 h6 text-dark">Blog</a>
+
+                    </div>
+
+                </div>
+
+
+            </div>            
+
+        </div>
+
+        <hr>
+
+        <p class="text-secondary small text-center">Copyright 2019 USA Funding Applications</p>
+
+    </div>
+
+
+    <div id="signuppage"></div>
+
+    <script>
+
+    $(function(){
+            $("#signuppage").load("login.htm");
+            setTimeout(() => {
+                $('.navbar-nav .nav-item').removeClass('active');
+                // change menu active class
+                var url = window.location.href.split('/');
+                $(`a[href="${url[url.length-1]}"]`).addClass('active');
+            }, 100);            
+
+        });
+    </script>
+
+    <script>
+
+     function openLogin() {
+          var modal = document.getElementById("myModal");
+          
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks the button, open the modal 
+          modal.style.display = "block";
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() {
+          modal.style.display = "none";
+          }
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+              if (event.target == modal) {
+                  modal.style.display = "none";
+              }
+           }
+        }
+    </script>
+
+</section> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <!-- Bootstrap 5 styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Fontawesome icon--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- External style sheet ref -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close mx-3 close-id">&times;</span>
+                <div class="card-container background-light shadow-default">
+                    <div class="row">
+                        <div class=" col-lg-12">
+                            <div class="model-card">
+                                <div class="row">
+                                    <div
+                                        class="nine wide large screen twelve wide mobile nine wide tablet nine wide widescreen column">
+                                        <div class="text-align-center" style="padding-bottom: 50px; padding-left: 80px;">
+                                            <div class="col-lg-8 image-container logo-pop">
+                                                <img src="./assets/logo-removebg-preview.png" width="100%">
+                                            </div>
+                                        </div>
+                                        <div class="mt-5 pt-5" style="padding-bottom: 24px;padding-left: 20px;">
+                                            <h3 class="sc-kstqJO epkVnJ h3-small-header" data-test="ACTION"> Discover Your USA Funding Account</h3>
+                                        </div>
+                                        <div class="" style="padding-bottom: 24px;padding-left: 20px;">
+                                            <div class="sc-gKseQn dOkiGQ condensed-large" data-test="SUBTEXT">Upon logging in, you will gain access to real-time updates regarding your case and have the ability to reach out to us with any inquiries.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-tem">
+                                        <div data-test="EMAIL_FORM">
+                                            <div data-test="form-active">
+                                                <form id="loginForm">
+                                                    <div class="" style="padding-bottom: 24px;">
+                                                        <div class="sc-iwyWTf kqJPCn form-field"
+                                                            data-test="email-form-field">
+                                                            <div class="element">
+                                                                <div class="label-wrapper" data-test="form-label">
+                                                                    <label class="sc-pGacB dTDWFm form-label"
+                                                                        data-test="form-label-text" for="email">Email<span
+                                                                            class="required">*</span></label>
+                                            
+                                                                </div>
+                                                                <div class="form-element-container">
+                                                                    <div data-test="email" class="sc-ezredP inJoyt">
+                                                                        <div class="ui fluid input"><input id="email"
+                                                                                class="input_box" name="email" type="email"
+                                                                            required></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="element">
+                                                                <div class="label-wrapper" data-test="form-label">
+                                                                    <label class="sc-pGacB dTDWFm form-label"
+                                                                        data-test="form-label-text" for="password">Password<span
+                                                                            class="required">*</span></label>
+                                            
+                                                                </div>
+                                                                <div class="form-element-container">
+                                                                    <div data-test="password" class="sc-ezredP inJoyt">
+                                                                        <div class="ui fluid input"><input id="password"
+                                                                                class="input_box" name="password" type="password"
+                                                                            required></div>
+                                                                    </div>
+                                                                </div>
+                                                                <button data-test="next-button" class="ui_button mt-4" onclick="data()">Find my
+                                                                    account</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <ul class="flex footer">
+            <div class="col-xxl-4 col-xl-2 col-lg-3 col-md-4">
+                <img src="./assets/logo-removebg-preview.png" alt="logo" width="140" class="img-fluid footer-logo mt-3">
+            </div>
+            <li class="idea"><a href="./home.htm">Home</a></li>
+            <li><a href="./uncllaimed.htm">Unclaimed Assets</a></li>
+            <li><a href="./faq.htm">FAQ</a></li>
+            <li><a href="./about.htm">About</a></li>
+            <li><a href="./terms-and-conditions.html">Terms and Conditions</a></li>
+            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function data(){
+            alert("We could not find any user with this email");
+        }
+
+
+        
+        var modal = document.getElementById("myModal");
+
+          open("openModal")
+          open("openModals")
+          
+
+            function open(id) {
+                  // Get the button that opens the modal
+                  var btn = document.getElementById(id);
+                    // Get the <span> element that closes the modal
+                        var span = document.getElementsByClassName("close")[0];
+
+                    // When the user clicks the button, open the modal 
+                    btn.onclick = function () {
+                        modal.style.display = "block";
+                    }
+
+                    // // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                        modal.style.display = "none";
+                    }
+
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function (event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+            }
+            const form = document.getElementById('loginForm');
+            form.addEventListener('submit', function (event) {
+                    event.preventDefault(); // Prevent the form from submitting
+
+            
+        
+                    // If all validations pass, submit the form
+                    // You may also choose to submit the form using AJAX here
+                    // form.submit();
+                    alert('We could not find any users with this email');
+                });
+    </script> 
+</body>
+</html>

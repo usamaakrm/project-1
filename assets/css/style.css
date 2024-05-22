@@ -952,3 +952,48 @@ option[value=""][disabled]{
   color: white !important;
   border: 5px solid #273e8f !important;
 }
+
+.form-check-label{
+  color: white !important;
+  width: 70%;
+  margin-left: 50px;
+  font-weight: 450 !important;
+}
+
+#flexCheckDefault{
+  position: absolute;
+  margin-left: -7rem;
+  margin-top: 0;
+}
+
+.last-scene{
+  height: 115vh !important;
+}
+
+.final-btn{
+  padding: 5px 10px !important;
+  font-weight: 550;
+
+}
+
+.nav-links{
+  margin-top: -35px;
+  margin-left: 180px;
+}
+
+.nav-links a{
+   color: #001e62 !important;
+   margin: 1rem;
+   font-weight: 700 !important;
+   font-size: 1rem !important;
+}
+
+nav{
+  margin-left: 0px;
+}
+
+@media screen and (max-width:680px) {
+  .d-flex{
+    flex-direction: column !important;
+  }
+}
