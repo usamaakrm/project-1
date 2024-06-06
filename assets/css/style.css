@@ -1133,7 +1133,7 @@ nav{
     padding: 0 !important;
     margin: 0 !important;
     margin-top: 13rem !important;
-    height: 100 !important;
+    height: 100% !important;
     padding-top: 10rem;
     overflow-y: visible !important;
   }
@@ -1189,4 +1189,102 @@ nav{
   }
 
   
+}
+
+@media screen and (max-width: 400px) {
+
+  .navbar{
+    margin-top: 1rem !important;
+  }
+
+  .ban-cont{
+     margin-top: -3rem;
+     margin-bottom: 3rem;
+  }
+
+  .ban-cont h1{
+    font-size: 2.5rem;
+  }
+
+  .head-reduce{
+    margin-top: -7.5rem !important;
+  }
+
+  .about-page{
+    margin-top: 30rem !important;
+  }
+
+  .benefit-page{
+    margin-top: 20rem !important;
+  }
+}
+@media screen and (max-width: 375px) {
+
+  .navbar{
+    margin-top: 1rem !important;
+  }
+
+  .ban-cont{
+     margin-top: 5rem;
+     margin-bottom: 15rem;
+  }
+
+  .ban-cont h1{
+    font-size: 2.5rem;
+  }
+
+  .head-reduce{
+    margin-top: -7rem !important;
+  }
+
+  .about-page{
+    margin-top: 42rem !important;
+  }
+
+  
+  .heads-mobo, .paras, .benefit-page{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .benefit-page{
+    margin-top: 25rem !important;
+    padding: 25rem 20px !important;
+    padding-top: 27rem !important;
+  }
+
+  .heads-mobo{
+    padding: 3rem auto !important;
+    margin-bottom: -30px;
+  }
+
+  .paras{
+    margin-top: 1rem !important;
+  }
+
+  .story{
+    margin-top: 20rem !important;
+  }
+
+  .stat-flex{
+    height: 100% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center;
+  }
+
+  .item-count{
+    margin-left: 1.5rem;
+  }
+
+  .contact-section{
+    margin-top: 20rem !important;
+    height: 880px !important;
+    padding-top: 5rem !important;
+    overflow-y: visible !important;
+  }
+
+  .cont-foot{
+    height: 100% !important;
+  }
 }
