@@ -1,0 +1,284 @@
+@media screen and (max-width: 400px) {
+
+  .navbar{
+    margin-top: 1rem !important;
+  }
+
+  .ban-cont{
+     margin-top: -3rem;
+     margin-bottom: 3rem;
+  }
+
+  .ban-cont h1{
+    font-size: 2.5rem;
+  }
+
+  .head-reduce{
+    margin-top: -7.5rem !important;
+  }
+
+  .about-page{
+    margin-top: 30rem !important;
+  }
+
+  .benefit-page{
+    margin-top: 20rem !important;
+  }
+}
+@media screen and (max-width: 375px) {
+
+  .navbar{
+    margin-top: 1rem !important;
+  }
+
+  .ban-cont{
+     margin-top: 5rem;
+     margin-bottom: 15rem;
+  }
+
+  .ban-cont h1{
+    font-size: 2.5rem;
+  }
+
+  .head-reduce{
+    margin-top: -7rem !important;
+  }
+
+  .about-page{
+    margin-top: 42rem !important;
+  }
+
+  
+  .heads-mobo, .paras, .benefit-page{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .benefit-page{
+    margin-top: 25rem !important;
+    padding: 25rem 20px !important;
+    padding-top: 27rem !important;
+  }
+
+  .heads-mobo{
+    padding: 3rem auto !important;
+    margin-bottom: -30px;
+  }
+
+  .paras{
+    margin-top: 1rem !important;
+  }
+
+  .story{
+    margin-top: 20rem !important;
+  }
+
+  .stat-flex{
+    height: 100% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center;
+  }
+
+  .item-count{
+    margin-left: 1.5rem;
+  }
+
+  .contact-section{
+    margin-top: 20rem !important;
+    height: 880px !important;
+    padding-top: 5rem !important;
+    overflow-y: visible !important;
+  }
+
+  .cont-foot{
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width:680px) {
+
+  .navbar{
+    margin-top: 3rem !important;
+  }
+  #data1{
+    display: none !important;
+    height:100% !important;
+    width: 100vw !important;
+    /* overflow-y: scroll !important; */
+  }
+
+  #data2{
+    display: block !important;
+    height:100% !important;
+    width: 100vw !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+  }
+
+  body{
+    width: 100%  !important;
+    height: 100vh !important;
+    overflow-y: hidden !important;
+  }
+
+  .mobo-flex{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    height: 100% !important;
+    justify-content: center !important;
+  }
+
+  .practice-img img{
+    width: 100% !important;
+    margin-top: -100px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .practice-img2 img{
+    width: 250px !important;
+  }
+
+  .pract-head{
+    font-size: 1.6rem;
+    border-top: 2px solid #f1b434 !important;
+    padding-top: 20px;
+    font-weight: 500;
+  }
+
+  p{
+    color: black !important;
+  }
+
+  .banner-content h1{
+    color: #001e62 !important;
+  }
+
+  .black{
+    color: black !important;
+  }
+
+  .banner-content{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  .banner-img{
+    width: 100% !important;
+  }
+
+  .head-reduce{
+    margin-top: -130px !important;
+  }
+
+  .about-page {
+    margin-top: 22rem !important;
+  }
+
+  .about-page h1{
+    font-size: 10rem !important;
+  }
+
+  .heads-mobo{
+    font-size: 2rem !important;
+    font-weight: 600;
+  }
+
+  section{
+    height: 100% !important;
+    width: 100% !important;
+    padding: 20px;
+  }
+
+  .benefit-page{
+    margin-top: 15rem !important;
+    background-color: #d1dbff59 !important;
+    padding: 0 1rem !important;
+  }
+  
+  .faq{
+    padding: 3rem 1rem;
+    background-color: #d1dbff59 !important;
+  }
+
+  .benefit-page p{
+    text-align: left !important;
+    color: black !important;
+  }
+
+  .faq-section{
+    margin-top: -3rem !important;
+  }
+
+  .story{
+    margin-top: 13rem;
+  }
+
+  .contact-section{
+    background-color: #001e62 !important;
+    width: 100%;
+    overflow-x: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 13rem !important;
+    height: 100% !important;
+    padding-top: 10rem;
+    overflow-y: visible !important;
+  }
+
+  .contact-section input, .contact-section select{
+    margin: .5rem .5rem !important;
+    background-color: #001e62;
+    height: 50px;
+    width: 40% !important;
+    border-bottom: 1px solid white !important;
+  }
+
+  .head-white{
+    color: white !important;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .footer-page-link{
+    padding: 1rem !important;
+    margin-top: -12rem !important;
+  }
+
+  #checked-foot{
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .dash-mobo h1{
+    font-size: 6rem !important;
+    color: #f1b434 !important;
+  }
+  
+  .item-count p{
+    text-align: center !important;
+    width: 85%;
+  }
+
+  .f-color{
+    padding: 10px !important;
+  }
+  
+  .form-check{
+    color: white !important;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+    width: 95% !important;
+  }
+
+  .btn-up{
+    margin-top: -30px !important;
+  }
+
+  
+}

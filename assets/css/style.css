@@ -1011,9 +1011,8 @@ nav{
   }
   #data1{
     display: none !important;
-    height:100% !important;
-    width: 100vw !important;
-    /* overflow-y: scroll !important; */
+    /* height:100% !important;
+    width: 100vw !important; */
   }
 
   #data2{
@@ -1026,30 +1025,55 @@ nav{
 
   body{
     width: 100%  !important;
-    height: 100vh !important;
+    /* height: 100vh !important; */
     overflow-y: hidden !important;
+  }
+
+  section{
+    height: 100% !important;
+    width: 100% !important;
+    padding: 20px;
   }
 
   .mobo-flex{
     display: flex !important;
     flex-direction: column !important;
     text-align: center !important;
-    height: 100% !important;
     justify-content: center !important;
   }
 
-  .practice-img img{
+  .item-count-mobo{
+    margin-left: 20px;
+  }
+
+
+   .practice-img-mobo img{
     width: 100% !important;
     margin-top: -100px !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .practice-img2 img{
+  .practice-img2-mobo img{
     width: 250px !important;
   }
+  
+  .practice-img-mobo img{
+    height: 400px !important;
+  }
 
-  .pract-head{
+  .pract-mobo{
+    height: auto !important;
+  }
+
+  .head-reduce{
+    font-size: 1.6rem;
+    border-top: 2px solid #f1b434 !important;
+    padding-top: 20px;
+    font-weight: 500;
+    margin-top: -8.5rem;
+  }
+  .pract-head-mobo{
     font-size: 1.6rem;
     border-top: 2px solid #f1b434 !important;
     padding-top: 20px;
@@ -1060,70 +1084,77 @@ nav{
     color: black !important;
   }
 
-  .banner-content h1{
+  .navbar-mobo{
+    margin: 2rem 1rem;
+  }
+
+  .banner-content-mobo h1{
     color: #001e62 !important;
+    font-size: 2rem;
+    font-weight: 600;
   }
 
   .black{
     color: black !important;
   }
 
-  .banner-content{
+  .banner-content-mobo{
     margin: 0 !important;
     padding: 0 !important;
     width: 100% !important;
     text-align: left !important;
+    margin-top: 7rem !important;
   }
 
-  .banner-img{
+  .ban-cont{
+    height: auto !important;
+  }
+
+  .banner-img-mobo{
     width: 100% !important;
   }
 
-  .head-reduce{
-    margin-top: -130px !important;
+  .about-page-mobo{
+    text-align: center;
+    height: auto !important;
+    position: relative !important;
   }
 
-  .about-page {
-    margin-top: 22rem !important;
+  .mobo-abt{
+    display: flex !important;
+    flex-direction: column !important;
+    margin: auto;
   }
 
-  .about-page h1{
-    font-size: 10rem !important;
+  .mobo-abt p{
+    font-size: 16px !important;
   }
 
   .heads-mobo{
     font-size: 2rem !important;
     font-weight: 600;
+    text-align: center !important;
   }
 
-  section{
-    height: 100% !important;
-    width: 100% !important;
-    padding: 20px;
+  .benefit-page-mobo, .faq-mobo{
+    height: auto !important;
+    background-color: #d1dbff59 !important;
+    margin: 0 !important;
+    margin-top: 2rem !important;
   }
 
-  .benefit-page{
-    margin-top: 15rem !important;
-    background-color: #d1dbff59 !important;
-    padding: 0 1rem !important;
+  .faq-mobo{
+    padding: 10px !important;
+    margin-top: 0px !important;
   }
-  
-  .faq{
-    padding: 3rem 1rem;
-    background-color: #d1dbff59 !important;
+
+  .story-mobo{
+    height: auto !important;
   }
 
   .benefit-page p{
     text-align: left !important;
     color: black !important;
-  }
-
-  .faq-section{
-    margin-top: -3rem !important;
-  }
-
-  .story{
-    margin-top: 13rem;
   }
 
   .contact-section{
@@ -1132,9 +1163,9 @@ nav{
     overflow-x: hidden !important;
     padding: 0 !important;
     margin: 0 !important;
-    margin-top: 13rem !important;
-    height: 100% !important;
-    padding-top: 10rem;
+    /* margin-top: 13rem !important; */
+    height: auto !important;
+    /* padding-top: 10rem; */
     overflow-y: visible !important;
   }
 
@@ -1149,12 +1180,12 @@ nav{
   .head-white{
     color: white !important;
     text-align: center;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
   }
 
   .footer-page-link{
     padding: 1rem !important;
-    margin-top: -12rem !important;
+    /* margin-top: -12rem !important; */
   }
 
   #checked-foot{
@@ -1187,104 +1218,19 @@ nav{
   .btn-up{
     margin-top: -30px !important;
   }
-
-  
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
 
   .navbar{
     margin-top: 1rem !important;
   }
 
-  .ban-cont{
-     margin-top: -3rem;
-     margin-bottom: 3rem;
-  }
-
-  .ban-cont h1{
-    font-size: 2.5rem;
-  }
-
-  .head-reduce{
-    margin-top: -7.5rem !important;
-  }
-
-  .about-page{
-    margin-top: 30rem !important;
-  }
-
-  .benefit-page{
-    margin-top: 20rem !important;
-  }
-}
-@media screen and (max-width: 375px) {
-
-  .navbar{
-    margin-top: 1rem !important;
-  }
-
-  .ban-cont{
-     margin-top: 5rem;
-     margin-bottom: 15rem;
-  }
-
-  .ban-cont h1{
-    font-size: 2.5rem;
-  }
-
-  .head-reduce{
-    margin-top: -7rem !important;
-  }
-
-  .about-page{
-    margin-top: 42rem !important;
-  }
-
-  
-  .heads-mobo, .paras, .benefit-page{
+  .banner-content-mobo{
     margin: 0 !important;
     padding: 0 !important;
-  }
-  .benefit-page{
-    margin-top: 25rem !important;
-    padding: 25rem 20px !important;
-    padding-top: 27rem !important;
-  }
-
-  .heads-mobo{
-    padding: 3rem auto !important;
-    margin-bottom: -30px;
-  }
-
-  .paras{
-    margin-top: 1rem !important;
-  }
-
-  .story{
-    margin-top: 20rem !important;
-  }
-
-  .stat-flex{
-    height: 100% !important;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    justify-content: center;
-  }
-
-  .item-count{
-    margin-left: 1.5rem;
-  }
-
-  .contact-section{
-    margin-top: 20rem !important;
-    height: 880px !important;
-    padding-top: 5rem !important;
-    overflow-y: visible !important;
-  }
-
-  .cont-foot{
-    height: 100% !important;
+    width: 100% !important;
+    text-align: left !important;
+    margin-top: 8rem !important;
   }
 }
